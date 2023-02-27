@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  {footerBottomItem.map((item) => (
+            <div className="w-32 text-gray-400" key={item.id}>
+              <h3 className="font-titelFont text-sm font-base top-1 text-gray-200">
+                {item.title}
+              </h3>
+              <p className="text-xs font-light text-gray-400 ">{item.des}</p>
+            </div>
+          ))} */

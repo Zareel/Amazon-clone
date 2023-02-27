@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .headerHover {
+    @apply px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100;
+  }
+  .productLi {
+    @apply text-gray-600 hover:text-black border-b-gray-500 hover:border-b-black w-full text-sm font-medium border-b-[1px] flex items-center justify-end gap-2 hover:cursor-pointer;
+  }
+}
